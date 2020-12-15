@@ -1,5 +1,6 @@
 # Recipe matcher
 **System rekomendacyjny przepisów kucharskich bazujący na matrycy podobieństw składników**
+
 This repository consists of an algorithm that finds ingredients alternatives and best-match recipe propositions.
 
 There are many examples of recipe data usage in classification. Mainly, based on ingredients, data scientists try to predict cuisine style (eg. Italian, Indian, Korean, etc.). But this kind of classification is not useful for the end-user. Everyday problems are simpler - what can I cook today? So we're looking for recipes that can be used based on available ingredients. Here where the problem appears - recipes consist of a limited list of ingredients. They don't give you clues which ingredients can be replaced by others. 
